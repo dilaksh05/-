@@ -17,65 +17,38 @@
   overflow: auto;
 }
 
-.Logo { 
+.Logo {
   width: 120px;
+  color: #00ff00;
 }
 
 
-h1{
-  color:white;
+h1 {
+  color: white;
   font-size: 40px;
   text-align: center;
 }
 
-h2{
-  color:white;
+h2 {
+  color: white;
   font-size: 25px;
-  
+
 }
 
-.intro{
-  
+.intro {
+
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-.content{
+.content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
 
-.card2 h5 {
-  color: #000;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.card3 h5 {
-  color:  #00ff00;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.card1 p {
-  color: burlywood ;
-  font-size: 12px !important;
-  padding-top: 5px;
-}
-
-.card2 p {
-  color: white ;
-  font-size: 12px !important;
-  padding-top: 5px;
-}
-
-.card3 p {
-  color:white;
-  font-size: 12px !important;
-  padding-top: 5px;
-}
 
 
 .card p {
@@ -84,18 +57,52 @@ h2{
 }
 
 
-p{
-  color:rgb(101, 183, 65) ;
+.card2 h5 {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card3 h5 {
+  color: #00ff00;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+
+.card1 p {
+  color: burlywood;
+  font-size: 12px !important;
+  padding-top: 5px;
+}
+
+.card2 p {
+  color: white;
+  font-size: 12px !important;
+  padding-top: 5px;
+}
+
+.card3 p {
+  color: white;
+  font-size: 12px !important;
+  padding-top: 5px;
+}
+
+
+p {
+  color: rgb(101, 183, 65);
   font-size: 15px;
   line-height: 15px;
   padding-top: 5px;
   font-weight: bolder;
 
 }
-button{
+
+button {
   width: 180px;
   color: #000;
-  font-size:12px;
+  font-size: 12px;
   padding: 12px 0;
   background: #fff;
   border: 0;
@@ -104,7 +111,7 @@ button{
   margin-top: 30px;
 }
 
-.card{
+.card {
   width: 200px;
   height: 230px;
   display: inline-flex;
@@ -117,45 +124,38 @@ button{
   background-size: cover;
   transition: transform 0.5s;
   text-align: center;
-  
+
 }
 
-.card1
-{
+.card1 {
   background-image: url(images/4.jpg);
 }
 
-.card2
-{
+.card2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/a.jpg);
 }
 
 .card3 {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/2.jpg);
 }
 
-.card4
-{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/1.jpg);
+.card4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/1.jpg);
 }
 
-.card:hover{
+.card:hover {
   transform: translate(-10px);
 }
 
-h5{
+h5 {
   color: black;
   text-shadow: 0 0 5px #999;
-  }
-  
-
-
-.logo{
-  color:#00ff00;
 }
 
-footer{
+
+
+footer {
   color: white;
   text-align: center;
   background-color: #1b1b18;
