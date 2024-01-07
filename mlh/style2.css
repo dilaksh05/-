@@ -4,14 +4,30 @@
     box-sizing: border-box;
 }
 
-.ck{
-    border: 1px solid red;
-}
+
+
+footer.en {
+    text-align: center;
+    background-color: rgb(25, 135, 84); /* English footer background color */
+    color: #333; /* English footer text color */
+    
+    bottom: 0;
+    float: none;
+    
+  }
+  
+  footer.ta {
+    text-align: center;
+    background-color:rgb(25, 135, 84); /* Tamil footer background color */
+    color: #333; /* Tamil footer text color */
+    
+    float: none;
+  }
+  
 
 .side_bar {
-    width: 250px;
-    position: absolute;
-    top: 200px;
+    
+   position: relative;
     /*bottom: 50px;*/
     /*background: rgba(0, 0, 0, 0.1);*/
     border-radius: 10px;
@@ -23,6 +39,7 @@
     position: relative;
     list-style-type: none;
     width: 300px;
+    background-color: #ffebcc;
     
 }
 
@@ -38,7 +55,7 @@
     height: 50px;
     margin-bottom: 1px;
     transition: .5s ease;
-    /*border-radius: 0 30px;*/
+    border-radius: 30px 30px;
     background-color:rgb(252, 227, 160) ;
 }
 .side_bar ul ul li a{

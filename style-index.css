@@ -1,11 +1,11 @@
-* {
+/** * {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   /* Corrected font name */
-}
+/*}
 
-
+*/
 
 .f1 {
   width: auto;
@@ -19,12 +19,13 @@
   overflow: auto;
 }
 
+/*
 .Logo {
   width: 120px;
   color: #00ff00;
 }
 
-
+*/
 
 
 
@@ -36,7 +37,9 @@
   padding-bottom: 40px;
 }
 
-.content {
+
+
+.f1 .content {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -44,11 +47,11 @@
 }
 
 
-
+/*
 .card p {
   text-shadow: 0 0 15px #000;
   font-size: 8px;
-}
+} */
 
 /*
 .card2 h5 {
@@ -83,7 +86,7 @@
   padding-top: 5px;
 }
 
-
+/*
 p {
   color: rgb(101, 183, 65);
   font-size: 15px;
@@ -92,8 +95,8 @@ p {
   font-weight: bolder;
 
 }
-
-button {
+*/
+.intro .button1 {
   width: 180px;
   color: #000;
   font-size: 12px;
@@ -104,7 +107,7 @@ button {
   outline: none;
   margin-top: 30px;
 }
-
+/*
 .card {
   width: 200px;
   height: 230px;
@@ -119,7 +122,7 @@ button {
   transition: transform 0.5s;
   text-align: center;
 
-}
+}*/
 
 .card1 {
   background-image: url(images/4.jpg);
@@ -143,19 +146,25 @@ button {
 .card:hover {
   transform: translate(-10px);
 }
-
+/*
 h5 {
   color: black;
   text-shadow: 0 0 5px #999;
   
 }
 
-
+*/
 
 footer {
   color: white;
   text-align: center;
-  background-color: #1b1b18;
+  background-color: rgb(25, 135, 84);
+}
+
+.bg
+{
+  /*border: 1px solid black;*/
+  /*background-color: yellow;*/
 }
 
 /*புற்கள் கள்ளிகள் 
@@ -174,3 +183,5 @@ footer {
    வென் சாரனை சிவ சக்தி கொடி 
    சீமைச் மேலும் வகையை சேர்க்க 
    */
+
+ 
