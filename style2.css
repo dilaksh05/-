@@ -1,0 +1,48 @@
+#what .card-body p{
+    color: white;
+}
+
+#what {
+    background-color: #fff;
+}
+
+#what .avatar{
+    min-width: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+#what .title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    line-height: normal;
+}
+
+#what .client-card .name {
+    color: #FF6963;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+#what .client-card .designation {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+#what .client-card .description {
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
