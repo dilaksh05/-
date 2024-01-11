@@ -303,3 +303,12 @@ footer {
 .clctdata .form-text{
   color: green;
 }
+
+.clctdata button{
+  background-color: rgb(255, 204, 77);
+}
+
+.clctdata .heading {
+ background-color:  rgb(255, 204, 77);
+ border-radius: 10px;
+}
