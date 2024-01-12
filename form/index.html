@@ -183,7 +183,7 @@
                   <a href="/">Home</a>
                </li>
                <li class="breadcrumb-item">
-                  <a href="">Botanical Classification</a>
+                  <a href="">Form</a>
                </li>
             </ol>
 
@@ -204,7 +204,7 @@
                   <a href="/">முகப்பு</a>
                </li>
                <li class="breadcrumb-item">
-                  <a href="">தாவரவியல் வகைப்பாடு </a>
+                  <a href="">விண்ணப்பம் </a>
                </li>
             </ol>
 
@@ -221,23 +221,22 @@
    <div class="container-fluid cnt clctdata">
 
       <div class="card p-2 cnt">
-         <!--<div class="card-header" style="background-color: rgb(255, 204, 77);">-->
-         <!-- <h1 class="text-center">புதிய தாவர விபரம் சேர்க்க </h1>-->
+         
          <div class="headingdiv d-flex justify-content-center cnt ">
-            <h1 class="heading text-center w-sm-50 m-2"> புதிய தாவர விபரம் சேர்க்க </h1>
+            <h1 class="heading text-center w-sm-50 m-2 fs-2"> புதிய தாவர விபரம் சேர்க்க </h1>
 
          </div>
          <div class="card-body cnt">
 
             <div class="formm cnt ">
-               <form action="">
+               <form action="" method="post" enctype="multipart/form-data">
 
                   <!--தாவரத்தின் பிரிவு -->
 
                   <div class="form-group">
                      <div class="row">
                         <div class="col-sm-2">
-                           <label for="plant-division" class="form-label">தாவரத்த்தின் பிரிவு <span class="text-danger">*</span> </label>
+                           <label for="plant-division" class="form-label">தாவரத்தின்  பிரிவு <span class="text-danger">*</span> </label>
 
                         </div>
 
@@ -259,9 +258,7 @@
                                     <option value="">abc</option>
                                     <option value="">bcd</option>
                                  </select>
-                                 <label for="plant-division1" class="form-label form-text">இன்னொரு பிரிவில் பொருந்தும்
-                                    என்றால்
-                                    தேர்வு</label>
+                                 <label for="plant-division1" class="form-label form-text">இன்னொரு பிரிவில் பொருந்தும் என்றால் தேர்வு செய்க</label>
 
                               </div>
 
@@ -286,7 +283,7 @@
                   <div class="form-group">
                      <div class="row">
                         <div class="col-sm-2">
-                           <label for="plant-division" class="form-label">தாவரத்த்தின் வகை<span class="text-danger">*</span>  </label>
+                           <label for="plant-division" class="form-label">தாவரத்தின்  வகை<span class="text-danger">*</span>  </label>
                         </div>
 
                         <div class="col-sm-10">
@@ -317,10 +314,11 @@
 
                            </div>
                            <div class="row">
-                              <input type="text" name="" id="plant-type3" class="form-control"
+                              <input type="text" name="" id="plant-type3" class="form-control fst-italic fst-lighter"
                                  aria-describedby="plant-type3"
                                  placeholder="புதிய வகையைச் சேர்த்து எழுதுக அல்லது வகைபிரிக்கப்படாத தாவரத்தின் பெயரை எழுதுக">
-                              <div id="plant-type3" class="form-text">
+                            
+                                 <div id="plant-type3" class="form-text ">
                                  தாவரத்தின் வகையை என்பதில் நிச்சயம் ஒன்றைத் தேர்வு
                                  செய்திருக்க வேண்டும்.
                                  அது வகை பிரிக்கப்படாத தாவரமெனில் அதன்
@@ -348,7 +346,7 @@
                            <div class="row">
                               <div class="col-sm-5">
 
-                                 <input type="text" name="" id="" class="form-control "
+                                 <input type="text" name="" id="" class="form-control fst-italic fst-lighter"
                                     aria-describedby="passwordHelpBlock" placeholder=" தாவர இனத்தின் பெயரை எழுதுக " required>
 
 
@@ -356,7 +354,7 @@
                               </div>
                               <div class="col-sm-7">
 
-                                 <input type="text" name="" id="" class="form-control " 
+                                 <input type="text" name="" id="" class="form-control fst-italic fst-lighter " 
                                     placeholder="மேற்கண்ட வகையில் இன்னொரு பெயரையும் எழுதுக " required>
 
                               </div>
@@ -364,7 +362,7 @@
                            </div>
                            <div class="row">
                               <div id="passwordHelpBlock" class="form-text">
-                                 ஆன் இனம்/ பெண் இனம்/ தாய் இனம்/
+                                 ஆண் இனம்/ பெண் இனம்/ தாய் இனம்/
                                  பேய் இனம்/
                                  சீமை இனம்/ சிவப்பு இனம்/ கருப்பு இனம்/
                                  வெள்ளை இனம்/ நீல இனம்/
@@ -390,8 +388,8 @@
                         </div>
 
                         <div class="col-sm-10">
-                           <input type="text" name="" id="" class="form-control"
-                              placeholder="வட்டாரப் பெயர்கள் சித்தர்கள் இட்ட பெயர்கள் காரணப் பெயர்கள் போன்ற விபரங்களைச் சேர்க்க ">
+                           <input type="text" name="" id="" class="form-control fst-italic fst-lighter"
+                              placeholder="வட்டாரப் பெயர்கள், சித்தர்கள் இட்ட பெயர்கள்/ காரணப் பெயர்கள் போன்ற விபரங்களைச் சேர்க்க ">
                         </div>
                      </div>
                   </div>
@@ -407,8 +405,8 @@
                         </div>
 
                         <div class="col-sm-10">
-                           <input type="text" name="" id="" class="form-control"
-                              placeholder="மாவட்ட பெயர் ஊர் பெயர் மலைப்பகுதி நிலப்பகுதி விபரங்களைச் சேர்க்க">
+                           <input type="text" name="" id="" class="form-control fst-italic fst-lighter"
+                              placeholder="மாவட்ட பெயர்/ ஊர் பெயர்/ மலைப்பகுதி/ நிலப்பகுதி விபரங்களைச் சேர்க்க">
                         </div>
                      </div>
                   </div>
@@ -422,13 +420,14 @@
                            <div class="col-sm-2">
                               <label for="exampleFormControlTextarea1" class="form-label">தாவர அமைப்பு <span class="text-danger">*</span> </label>
 
-                              <label for="exampleFormControlTextarea1" class="form-label form-text">இலை/ முள்/ தலை
-                                 தண்டு/ பட்டை/ மொட்டு/ பூ/ காய்/ கனி/ வேர்/ கிழங்கு/ விதை/ பிசின்/ பால் மற்ற
-                                 பாகங்கள்</label>
 
                            </div>
                            <div class="col-10">
                               <textarea class="form-control " id="exampleFormControlTextarea1" rows="3" required></textarea>
+                              
+                              <label for="exampleFormControlTextarea1" class="form-label form-text">இலை/ முள்/ சுனை/ 
+                                 தண்டு/ பட்டை/ மொட்டு/ பூ/ காய்/ கனி/ வேர்/ கிழங்கு/ விதை/ பிசின்/ பால் மற்ற
+                                 பாகங்கள்</label>
                            </div>
                         </div>
                      </div>
@@ -441,14 +440,15 @@
                         <div class="row mb-3">
                            <div class="col-sm-2">
                               <label for="exampleFormControlTextarea1" class="form-label"> தாவர விளக்கம் <span class="text-danger">*</span> </label>
-                              <label for="exampleFormControlTextarea1" class="form-label form-text"> தாயகம் பூர்விகம்
-                                 தாவரத்தின்
-                                 சுவை தாவரத்தின் சிறப்பு குணங்கள் அதிசயங்கள் பெயர்க்காரணம்
-                              </label>
+                            
 
                            </div>
                            <div class="col-10">
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                              <label for="exampleFormControlTextarea1" class="form-label form-text"> தாயகம் பூர்விகம்
+                                 தாவரத்தின்
+                                 சுவை தாவரத்தின் சிறப்பு குணங்கள் அதிசயங்கள் பெயர்க்காரணம்
+                              </label>
 
                            </div>
                         </div>
@@ -466,14 +466,15 @@
                               <label for="exampleFormControlTextarea1" class="form-label form-label">மேற்கோள் நூல்கள்
                               </label>
 
-                              <label for="exampleFormControlTextarea1" class="form-label form-text">தாவரம் இடம்பெற்றுள்ள
-                                 சித்தர்
-                                 நூல்கள்/ பாடல்கள்/ பள்ளு/ கவிகள்</label>
+                             
 
 
                            </div>
                            <div class="col-10">
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <label for="exampleFormControlTextarea1" class="form-label form-text">தாவரம் இடம்பெற்றுள்ள
+                                 சித்தர்
+                                 நூல்கள்/ பாடல்கள்/ பள்ளு/ கவிகள்</label>
 
                            </div>
                         </div>
@@ -498,7 +499,7 @@
 
                                  <div class="mb-3">
 
-                                    <input class="form-control" type="file" id="formFileMultiple" multiple required>
+                                    <input class="form-control" type="file" id="formFileMultiple" multiple required >
                                     <label for="formFileMultiple" class="form-label form-text">தாவரத்தின் முக்கிய
                                        தோற்ற்றம்
                                     </label>
