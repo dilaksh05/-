@@ -221,7 +221,7 @@
 
     <div class="container-fluid cnt clctdata">
 
-        <div class="card p-2 cnt">
+        <div class="card-title p-2 cnt">
 
             <div class="headingdiv d-flex justify-content-center cnt ">
                 <h1 class="heading text-center w-sm-50 m-2 fs-2"> உள்நுழைய / பதிவு செய்ய </h1>
@@ -229,7 +229,7 @@
         </div>
     </div>
 
-    <div class="card text-center  clctdata">
+    <div class="card   clctdata">
         <div class="card-header ">
             <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
@@ -246,14 +246,14 @@
 
                 <!-- உள்நுழைய -->
                 <div class="tab-pane fade show active cnt" id="contact">
-                    <div class="card p-2 cnt " style="width: 40rem;">
+                    <div class="card p-2 cnt " >
                         <div class="card-title cnt p-0 m-0">
                             <h5 class="text-center cnt p-0 m-4">உள்நுழைய</h5>
                         </div>
                         <div class="card-body cnt ">
                             <form action="updates.php" method="post" enctype="multipart/form-data">
 
-                                <!--பயனர் பெயர்-->
+                                <!--   பயனர் பெயர்
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-4">
@@ -269,10 +269,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--பயனர் பெயர்-->
+                                பயனர் பெயர்-->
 
-
-                                <hr>
+                              
                                 <!-- மின்னஞ்சல்-->
                                 <div class="form-group">
                                     <div class="form-group">
@@ -323,7 +322,8 @@
                                 <!--input-->
                                 <div class="form-group">
                                     <div class="row">
-                                        <a href="reset-password.html" style="text-align: end;">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</a>
+                                        <a href="reset-password.html" style="text-align: end;">கடவுச்சொல்லை
+                                            மறந்துவிட்டீர்களா?</a>
                                         <br> <br>
                                     </div>
                                     <div class="d-grid gap-2 col-6 mx-auto">
@@ -344,7 +344,7 @@
                 <div class="tab-pane fade" id="home">
                     <div class="card p-2 cnt">
 
-                        <div class=" d-flex justify-content-center cnt ">
+                        <div class="  cnt ">
                             <h5 class=" text-center w-sm-50 m-2 "> புதிய உறுப்பினர் சேர்க்க </h5>
 
                         </div>
@@ -356,8 +356,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-2">
-                                                <label for="" class="form-label">உறுப்பினர் பெயர் <span
-                                                        class="text-danger">*</span> </label>
+                                                <label for="" class="form-label">உறுப்பினர் பெயர் </label>
                                             </div>
 
                                             <div class="col-sm-10">
@@ -366,7 +365,7 @@
                                                     aria-describedby="iyatpeyar" placeholder="இயற்பெயர்">
 
                                                 <div id="iyatpeyar" class="form-text ">
-                                                    தங்களது உண்மையான இயட்ப்பெயரை பதிவு செய்யவேண்டும் இணையதளத்தில்
+                                                    தங்களது உண்மையான இயற்பெயரை பதிவு செய்யவேண்டும். இணையதளத்தில்
                                                     இந்த பெயர் தோன்றாது
                                                 </div>
                                             </div>
@@ -415,6 +414,7 @@
                                                             aria-describedby="passwordHelpBlock"
                                                             placeholder="முக்கிய தொழில்">
                                                     </div>
+                                                    <br> <br>
                                                     <div class="col-sm-6">
 
                                                         <input type="text" name="tholil1" id="tholil1"
@@ -473,6 +473,7 @@
                                                             class="mukavari form-control fst-italic fst-lighter"
                                                             placeholder="வீட்டு எண்  ">
                                                     </div>
+                                                    <br> <br>
                                                     <div class="col-sm-6">
                                                         <input type="text" name="mukavari" id="mukavari"
                                                             class="mukavari form-control fst-italic fst-lighter"
@@ -480,26 +481,28 @@
                                                     </div>
 
                                                 </div>
-                                                <br>
+                                                <br> <br>
                                                 <div class="row">
                                                     <div class="col-sm-6">
                                                         <input type="text" name="mukavari" id="mukavari"
                                                             class="mukavari form-control fst-italic fst-lighter"
                                                             placeholder="ஊர் ">
                                                     </div>
+                                                    <br> <br>
                                                     <div class="col-sm-6">
                                                         <input type="text" name="mukavari" id="mukavari"
                                                             class="mukavari form-control fst-italic fst-lighter"
                                                             placeholder="மாவட்டம்">
                                                     </div>
                                                 </div>
-                                                <br>
+                                                <br> <br>
                                                 <div class="row">
                                                     <div class="col-sm-6">
                                                         <input type="text" name="mukavari" id="mukavari"
                                                             class="mukavari form-control fst-italic fst-lighter"
-                                                            placeholder=" மாநிலம் ">
+                                                            placeholder="மாநிலம்">
                                                     </div>
+                                                    <br> <br>
                                                     <div class="col-sm-6">
                                                         <input type="text" name="mukavari" id="mukavari"
                                                             class="mukavari form-control fst-italic fst-lighter"
@@ -540,8 +543,7 @@
                                             <div class="row mb-3">
                                                 <div class="col-sm-2">
                                                     <label for="exampleFormControlTextarea1" class="form-label"
-                                                        id="tholaipesien" class="tholaipesien"> அலைபேசி எண் <span
-                                                            class="text-danger">*</span> </label>
+                                                        id="tholaipesien" class="tholaipesien"> அலைபேசி எண்  </label>
 
 
                                                 </div>
@@ -576,13 +578,12 @@
                                                 <div class="col-sm-10">
                                                     <p class=" bg-white p-2 pb-0"
                                                         style="text-align: left; color: rgba(255, 0, 0, 0.6);border-radius: 8px;font-size: 13px;">
-                                                        தங்கள் பதிவேற்றும் புகைப்பட அடையாளச்சான்று முதல்முறையாக இந்த
+                                                        தாங்கள் பதிவேற்றும் புகைப்பட அடையாளச்சான்றானது, முதல்முறையாக இந்த
                                                         இணையத்தில் தங்கள்
-                                                        சுயவிபரத்தை உருவாக்கும்போது இந்த இணையதள நிர்வாகிகளின் சுயவிபர
-                                                        புகைப்பட
+                                                        சுயவிபரத்தை உருவாக்கும்போது, இந்த இணையதள நிர்வாகிகளின் சுயவிபரப்புகைப்பட
                                                         ஒப்பீட்டுக்காக
-                                                        மட்டுமே பயன்படுத்தப்படும் வேறு எந்த வகையிலும் எந்த இடத்திலும்
-                                                        பயன்படுத்தப்படமாட்டாது
+                                                        மட்டுமே பயன்படுத்தப்படும். வேறு எந்த வகையிலும்/ எந்த இடத்திலும்
+                                                        பயன்படுத்தப்படமாட்டாது.
                                                         இந்த இணையதளத்தில் எந்த இடத்திலும் தங்களுடைய அடையாளச்சான்று
                                                         காட்டப்படமாட்டாது.
                                                         <br> <span class="text-muted">ஆதார்/ ஓட்டுநர் உரிமம்/ அடையாள
@@ -625,7 +626,7 @@
                                                         accept="image/*" name=" formFile[]">
                                                     <label for="formFileMultiple" class="form-label form-text">பூக்கள்/
                                                         தாவரங்கள்/ கடவுள்/
-                                                        போன்ற பொதுவான படங்களை பதிவேற்ற வேண்டாம் ஏற்றுக்கொள்ளப்படமாடடாது
+                                                        போன்ற பொதுவான படங்களை பதிவேற்ற வேண்டாம். ஏற்றுக்கொள்ளப்படமாடடாது
                                                     </label>
                                                 </div>
                                             </div>
