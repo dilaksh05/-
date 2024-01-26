@@ -1,5 +1,5 @@
 <?php
-$message = "";
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $herb_name = $_POST['exampleFormControlInput1'] ?? '';
