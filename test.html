@@ -1,169 +1,77 @@
-<div class="container-fluid cnt">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include Font Awesome CSS (make sure to adjust the version according to your needs) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <style>
+   body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
 
-    <!--<div class="container d-flex justify-content-center">
-        <img src="a.jpg" alt="" class="img-fluid-sm ">
-    </div>-->
+.star-circle {
+  position: relative;
+  width: 200px; /* Adjust the size of the circle */
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    <div class="container text-center pt-4">
-        <img src="9434619.jpg" class="rounded-circle" alt="" width="200" height="200">
-        <img src="icons8-star-50.png" alt="" class="star">
-    </div>
+.star {
+  font-size: 2em; /* Adjust the size of the stars */
+  color: gold;
+  position: absolute;
+  transform-origin: 50% 50%;
+}
 
-    <div class="container  p-4">
-        <h4 class="text-center">Dilakshan kamalathasan</h4>
-        <h6 class="text-center">Dilaksh</h6>
-        <h6 class="text-center">Botany research</h6>
-        <h6 class="text-center">Botany research2</h6>
-        <h6 class="text-center">No 000A, ABC Shop Road <br> ABC Village ABC City <br> Sri Lanka</h6>
-        <h6 class="text-center">Botany research</h6>
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <h6 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Debitis ea qui dignissimos ut enim? Quasi
-                    deleniti dolor neque. Asperiores laudantium aliquam corporis quibusdam omnis ex harum dicta facere
-                    accusantium nulla?</h6>
-            </div>
-        </div>z
-        <div class="text-center atag">
-            <a class="text-center" href="#"><i class="fa fa-facebook-square" aria-hidden="true"
-                    style="color: blue;"></i> </a>
-            <a class="text-center" href="#"> &nbsp; &nbsp;<i class="fa fa-twitter-square" aria-hidden="true"
-                    style="color: blue;"></i></a>
-            <a class="text-center" href="#"> &nbsp; &nbsp;<i class="fa fa-linkedin-square" aria-hidden="true"
-                    style="color: blue;"></i></a>
-            <a class="text-center" href="#"> &nbsp; &nbsp;<i class="fa fa-instagram" aria-hidden="true"
-                    style="color: red;"></i></a>
-            <a class="text-center" href="#"> &nbsp; &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"
-                    style="color: rgb(64, 225, 93);"></i></a>
-        </div>
+.star:nth-child(1) { transform: rotate(0deg) translateY(-90px); }
+.star:nth-child(2) { transform: rotate(36deg) translateY(-90px); }
+.star:nth-child(3) { transform: rotate(72deg) translateY(-90px); }
+.star:nth-child(4) { transform: rotate(108deg) translateY(-90px); }
+.star:nth-child(5) { transform: rotate(144deg) translateY(-90px); }
+.star:nth-child(6) { transform: rotate(180deg) translateY(-90px); }
+.star:nth-child(7) { transform: rotate(216deg) translateY(-90px); }
+.star:nth-child(8) { transform: rotate(252deg) translateY(-90px); }
+.star:nth-child(9) { transform: rotate(288deg) translateY(-90px); }
+.star:nth-child(10) { transform: rotate(324deg) translateY(-90px); }
 
+.center-image {
+  width: 5px; /* Adjust the size of the image */
+  height: 50px;
+  border-radius: 50%;
+}
 
+  </style>
+  <title>Star Circle with Center Image</title>
+</head>
+<body>
 
+<!-- Your existing div elements -->
 
-
-
-
-    </div>
-
-    <div class="container d-flex justify-content-center ">
-        <hr class="  border-3 opacity-75" width="100%" style="color: rgb(255, 204, 77);">
-    </div>
-
-
+<div class="star-circle">
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  <i class="fas fa-star star"></i>
+  
+  <img src="assets/9434619.jpg" alt="Center Image" class="center-image">
 </div>
 
+<!-- Continue with your other div elements -->
 
-<div class="table-responsive tblecls ">
-
-    <table class="table ">
-        <thead class="">
-            <tr>
-                <th>பெரு மரங்கள்</th>
-                <th>சிறு மரங்கள்</th>
-                <th>குறு மரங்கள் </th>
-                <th>சிறுசெடிகள்</th>
-                <th>பெருஞ் செடிகள்</th>
-                <th>கொடிகள்</th>
-                <th>தரைக்கொடிகள்</th>
-                <th>புற்கள்</th>
-                <th>கள்ளிகள்</th>
-                <th>கற்றாழைகள்</th>
-                <th>நீர் வாழ் தாவரங்கள்</th>
-                <th>பூஞ்சைகள் காளான்கள்</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-                <td>
-                    <figure class="figure">
-                        <img src="img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                    </figure>
-                </td>
-
-
-            </tr>
-
-        </tbody>
-    </table>
-
-</div>
+</body>
+</html>

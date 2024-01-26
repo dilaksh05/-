@@ -70,6 +70,9 @@ footer {
   color: white;
   text-align: center;
   background-color: rgb(25, 135, 84);
+  position: relative;
+  left: 0;
+  right: 0;
 
 }
 
@@ -346,10 +349,78 @@ margin: 0;
 }
 
 
-/*-------------------------------------user-form------------------------------------------------------*/
-@media screen and (min-width: 500px) and (max-width: 2000px) {
-  .usrfrm{
-    width: 480px;
-  }
+
+
+/**-------------------------------------User-account----------------------------------------------**/
+
+th {
+  font-size: 10px;
 }
+
+.tblecls img {
+  width: 100px;
+  height: 100px;
+}
+
+.tblecls table td{
+  background-color: rgb(255, 239, 207);
+}
+
+.tblecls table th{
+  background-color: rgb(255, 239, 207);
+}
+
+.atag a{
+  text-decoration: none;
+}
+
+
+.star-circle {
+  position: relative;
+  width: 200px; /* Adjust the size of the circle */
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  font-size: 20px; /* Adjust the size of the stars */
+  color: rgb(195, 153, 50);
+  position: absolute;
+  transform-origin: 50% 50%;
+}
+
+
+.star:nth-child(1) { transform: rotate(54deg) translateY(-90px); }
+.star:nth-child(2) { transform: rotate(78deg) translateY(-90px); }
+.star:nth-child(3) { transform: rotate(102deg) translateY(-90px); }
+.star:nth-child(4) { transform: rotate(126deg) translateY(-90px); }
+.star:nth-child(5) { transform: rotate(150deg) translateY(-90px); }
+
+.star:nth-child(6) { transform: rotate(210deg) translateY(-90px); }
+.star:nth-child(7) { transform: rotate(234deg) translateY(-90px); }
+.star:nth-child(8) { transform: rotate(258deg) translateY(-90px); }
+.star:nth-child(9) { transform: rotate(282deg) translateY(-90px); }
+.star:nth-child(10) { transform: rotate(306deg) translateY(-90px); }
+
+.center-image {
+  width: 140px; /* Adjust the size of the image */
+  height: 140px;
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .headh4
+  {
+    
+    text-shadow: -1px -2px 3px gold;
+    font-weight: bold;
+     font-size: 30px;
+     
+  }
+  
+  }
 
