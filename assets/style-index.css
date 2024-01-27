@@ -354,7 +354,7 @@ margin: 0;
 /**-------------------------------------User-account----------------------------------------------**/
 
 th {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .tblecls img {
@@ -374,10 +374,32 @@ th {
   text-decoration: none;
 }
 
+.tblecls a{
+  font-size: 10px;
+  text-align: center;
+}
 
+figcaption{
+  text-align: center;
+}
+
+.table-bordered{
+  
+  border-color:  rgb(255, 213, 110) !important;
+  border-bottom: rgb(255, 239, 207) !important;
+ 
+  
+}
+
+
+
+table .clr th{
+  color: green !important;
+  background-color: rgb(252, 227, 160) !important;
+}
 .star-circle {
-  position: relative;
-  width: 200px; /* Adjust the size of the circle */
+  /*position: relative;*/
+ /* width: 200px; *//* Adjust the size of the circle */
   height: 200px;
   border-radius: 50%;
   display: flex;
